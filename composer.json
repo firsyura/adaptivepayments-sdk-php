@@ -18,8 +18,7 @@
     ],
     "require": {
         "php": ">=5.2.0",
-        "ext-curl": "*",
-        "firsyura/sdk-core-php":"dev-master"
+        "ext-curl": "*"
     },
     "autoload": {
         "classmap": ["lib"]
