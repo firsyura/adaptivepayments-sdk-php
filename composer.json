@@ -1,5 +1,5 @@
 {
-    "name": "paypal/adaptivepayments-sdk-php",
+    "name": "firsyura/adaptivepayments-sdk-php",
     "description": "PayPal adaptivepayments SDK for PHP",
     "keywords": ["paypal", "php", "sdk"],
     "homepage": "https://developer.paypal.com",
@@ -10,10 +10,16 @@
             "homepage": "https://github.com/paypal/adaptivepayments-sdk-php/contributors"
         }
     ],
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/firsyura/sdk-core-php"
+      }
+    ],
     "require": {
         "php": ">=5.2.0",
         "ext-curl": "*",
-        "paypal/sdk-core-php":"1.4.*"
+        "firsyura/sdk-core-php":"dev-master"
     },
     "autoload": {
         "classmap": ["lib"]
